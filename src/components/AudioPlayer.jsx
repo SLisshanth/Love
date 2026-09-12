@@ -56,7 +56,7 @@ export default function AudioPlayer() {
     >
       <audio
         ref={audioRef}
-        src="/audio/bgm.mp3"
+        src={`${import.meta.env.BASE_URL}audio/bgm.mp3`}
         loop
         preload="auto"
       />
