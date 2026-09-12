@@ -10,6 +10,7 @@ export default function AudioPlayer() {
     // Attempt autoplay or listen for first interaction
     const handleFirstInteraction = () => {
       if (!hasInteracted && audioRef.current) {
+        audioRef.current.currentTime = 4;
         audioRef.current.play().then(() => {
           setIsPlaying(true);
           setHasInteracted(true);
@@ -36,6 +37,9 @@ export default function AudioPlayer() {
       audioRef.current.pause();
       setIsPlaying(false);
     } else {
+      if (!hasInteracted) {
+        audioRef.current.currentTime = 4;
+      }
       audioRef.current.play().then(() => {
         setIsPlaying(true);
         setHasInteracted(true);
