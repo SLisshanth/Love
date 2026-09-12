@@ -37,7 +37,7 @@ export default function BirthdayFinale() {
             marginBottom: '1.5rem',
           }}
         >
-          HAPPY BIRTHDAY, MY LOVE.
+          HAPPY BIRTHDAY, KAVI.
         </motion.h2>
 
         {/* Step 2: Thank you statement */}
