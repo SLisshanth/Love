@@ -94,7 +94,7 @@ export default function AudioPlayer() {
         }}
       >
         {isPlaying ? <Volume2 size={13} strokeWidth={1.5} /> : <VolumeX size={13} strokeWidth={1.5} />}
-        <span>{isPlaying ? 'PESAMALE ♪' : 'PLAY MUSIC'}</span>
+        <span>{isPlaying ? 'MUSIC ♪' : 'PLAY MUSIC'}</span>
 
         {/* Animated Sound Bars */}
         {isPlaying && (

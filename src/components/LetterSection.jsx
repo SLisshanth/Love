@@ -50,7 +50,7 @@ export default function LetterSection() {
           {/* Letter Body */}
           <div className="font-serif" style={{ fontSize: '1.3rem', lineHeight: 1.85, color: '#e0e0e0', fontWeight: 300 }}>
             <p style={{ marginBottom: '1.8rem', fontSize: '1.6rem', fontStyle: 'italic', color: '#ffffff' }}>
-              My Love,
+              Dear Kavi,
             </p>
 
             <p style={{ marginBottom: '1.6rem' }}>
@@ -58,7 +58,7 @@ export default function LetterSection() {
             </p>
 
             <p style={{ marginBottom: '1.6rem' }}>
-              Our paths finally crossed at the Library Hackathon. What began as quiet discussions about code and projects slowly turned into personal confidences, late-night calls, and talking until 6 AM without ever noticing the world turning outside our window.
+              Our paths finally crossed at the Makeathon25. What began as quiet discussions about code and projects slowly turned into personal confidences, late-night calls, and talking until 6 AM without ever noticing the world turning outside our window after proposal.
             </p>
 
             <p style={{ marginBottom: '1.6rem' }}>
