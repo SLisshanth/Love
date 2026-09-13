@@ -119,7 +119,7 @@ export default function BirthdayFinale() {
             textTransform: 'uppercase',
           }}
         >
-          25.06.2025 → ∞
+          24.04.2025 → ∞
         </motion.p>
       </div>
     </section>
