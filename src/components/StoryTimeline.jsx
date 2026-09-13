@@ -425,7 +425,7 @@ export default function StoryTimeline() {
             06 — THE PROPOSAL
           </span>
           <h2 className="font-serif" style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', fontWeight: 300, marginTop: '0.8rem', letterSpacing: '0.12em' }}>
-            25 JUNE 2025
+            24 MAY 2025
           </h2>
 
           <p className="font-serif" style={{ fontSize: '1.4rem', color: '#aaaaaa', marginTop: '2rem', fontWeight: 300 }}>
@@ -473,7 +473,7 @@ export default function StoryTimeline() {
               07 — UNTIL DAWN
             </span>
             <h2 className="font-serif" style={{ fontSize: 'clamp(2.2rem, 4vw, 3.8rem)', fontWeight: 300, marginTop: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-              6 AM
+              6 AM 25 MAY 2025
             </h2>
           </motion.div>
 
@@ -821,7 +821,7 @@ export default function StoryTimeline() {
               { title: 'Your Guidance', text: 'The way you tell me what is right and wrong with honest clarity.' },
               { title: 'Looking After Me', text: 'How you notice when I am tired or overwhelmed before I even say a word.' },
               { title: 'Your Smile', text: 'The way your entire face lights up and instantly makes everything alright.' },
-              { title: 'Lunch Dates', text: 'The cute detail that you so often insist on paying for our lunch!' }
+              { title: 'Lunch', text: 'The cute detail that you so often insist on paying for our lunch!' }
             ].map((item, idx) => (
               <motion.div
                 key={item.title}

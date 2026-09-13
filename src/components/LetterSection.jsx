@@ -84,7 +84,7 @@ export default function LetterSection() {
               </div>
 
               <span className="font-sans" style={{ fontSize: '0.75rem', color: '#666', letterSpacing: '0.15em' }}>
-                25.06.2025 → ∞
+                24.05.2025 → ∞
               </span>
             </div>
           </div>
